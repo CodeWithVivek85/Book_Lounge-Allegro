@@ -63,7 +63,7 @@ public class BaseClass {
 	@AfterClass
 	public void closetheBrowser() {
 		driver.quit();
-		System.out.println("Browser closed");
+		System.out.println("Browser is closed");
 	}
 
 }
